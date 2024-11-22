@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif; /* Custom font, you can consider using Tailwind's font family here */
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light background, you can use Tailwind's `bg-gray-100` */
+  color: #212529; /* Dark text, Tailwind has `text-gray-800` */
+}
+
+a {
+  color: inherit; /* Inheriting the current text color, fine to keep */
+  text-decoration: none; /* Removing underlines, can also use Tailwind's `no-underline` */
+}
+
+h2 {
+  color: #343a40; /* Darker shade for headings, Tailwind has `text-gray-900` */
+}
